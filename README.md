@@ -1,4 +1,4 @@
-# Meu repositório para anotações de Git/GitHub
+# Meu repositório de anotações sobre Git/GitHub
 Repositório criado para o desafio de projeto do bootcamp da DIO.
 
 
@@ -9,7 +9,7 @@ Repositório criado para o desafio de projeto do bootcamp da DIO.
 
 [Download do GitHub](https://desktop.github.com/)
 
-## Introdução ao Git:
+## O que é Git?:
 Git é um sistema de **controle de versão de arquivos** onde podemos desenvolver projetos na qual **diversas pessoas podem contribuir simultaneamente**, editando e criando novos arquivos,permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas.
 
 #### Comandos de terminal (Windows Version):
@@ -36,8 +36,25 @@ Git é um sistema de **controle de versão de arquivos** onde podemos desenvolve
 
 #### Objetos do Git:
 
-![sl3bm](https://user-images.githubusercontent.com/105538076/173146945-b7b1c488-0b24-4b57-8b5e-65bfb00739a6.png)
+![imagem-blob-tree-e-commit](https://user-images.githubusercontent.com/105538076/173146945-b7b1c488-0b24-4b57-8b5e-65bfb00739a6.png)
 
+- **Blob**: É o tipo de objeto usado para armazenar o conteúdo de cada arquivo em um repositório;
+- **Tree**: A tree representa um diretório, contendo uma mistura de blobs e trees;
+- **Commit**: Especifica a tree de nível mais alto para o snapshot do projeto neste ponto; a informação do autor/commiter que usa as configurações user.name e user.
 
+> No **Commit** geralmente nos é gerado um SHA1.
 
+#### E pra que serve o SHA1?
+
+o SHA1 embaralha determinado arquivo, imagem ou texto para que seja gerado um conjunto de caracteres identificadores, caracteres esses que possuem **40** dígitos.Esses quarenta dígitos são **sempre únicos**. Se você pegar um texto enorme e passar ele por esse algoritmo, ele vai gerar esse conjunto de caracteres, **se você alterar uma vírgula que seja desse texto, já será gerado outro conjunto**. Assim, dando mais segurança.
+
+> Outras formas de aumentar a segurança estão disponíveis também no **GitHub**, são elas as **chaves SSH** e os **Access Tokens**
+
+## O que é GitHub?
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+#### Pra que servem as chaves SSH e os Access Tokens?
+
+**Secure Socket Shell (SSH)**, é um protocolo de segurança de troca de arquivos entre cliente e servidor de internet, usando criptografia. O objetivo do SSH é permitir que desenvolvedores ou outros usuários realizem alterações em sites e servidores utilizando uma conexão simples e segura.
+Já os **Tokens de acesso** são usados para a validação de usuários para garantir a autenticidade de quem acessou, ou esta acessando.
 
