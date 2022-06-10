@@ -58,3 +58,38 @@ GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle 
 **Secure Socket Shell (SSH)**, é um protocolo de segurança de troca de arquivos entre cliente e servidor de internet, usando criptografia. O objetivo do SSH é permitir que desenvolvedores ou outros usuários realizem alterações em sites e servidores utilizando uma conexão simples e segura.
 Já os **Tokens de acesso** são usados para a validação de usuários para garantir a autenticidade de quem acessou, ou esta acessando.
 
+## Como exportar e importar documentos?
+
+#### Trajeto Github → Local:
+- Copia-se o HTTPS do repositório:
+
+![FOLLOW-THROUGH-GIT5](https://user-images.githubusercontent.com/105538076/173152761-b568e3da-1201-430d-b308-ab5feb81cf0e.png)
+- Abre-se o GitBash numa pasta:
+
+![6](https://user-images.githubusercontent.com/105538076/173153291-aab236c1-cbfa-4312-8b1e-4a0e8de34c6a.png)
+
+- Inserir comando **git clone** + **link** e logo depois dar um **cd** + **nome do repositório**:
+
+![FOLLOW-THROUGH-GIT](https://user-images.githubusercontent.com/105538076/173153598-320c2bcc-548c-49c5-aa2b-2f6ef1e0e615.png)
+> Ao usar o comando **git status** nota-se conformidade.
+
+![FOLLOW-THROUGH-GIT7](https://user-images.githubusercontent.com/105538076/173154120-25ba4e7e-a995-410f-b08d-5874bc28b6c7.png)
+
+#### Trajeto Local → Github:
+- Cria-se um arquivo de texto dentro da pasta do repositório:
+
+![FOLLOW-THROUGH-GIT8](https://user-images.githubusercontent.com/105538076/173154401-5a5686d9-5705-4e47-89e0-0904f447238f.png)  
+- Utiliza-se o comando **git status** (que mostra que não está reconhecido ainda):
+
+![FOLLOW-THROUGH-GIT2](https://user-images.githubusercontent.com/105538076/173154593-511f8bf6-c812-46e7-8a1e-bc2a0be2037a.png)
+- O próprio programa pede a execução do comando **git add .**, e é esse o próximo passo:
+
+![FOLLOW-THROUGH-GIT3](https://user-images.githubusercontent.com/105538076/173154788-a7dc44f1-a20a-497f-91f4-5e1c00ca37bd.png)
+> Executa-se o **git status** apenas pra checar conformidade.
+
+- Usar **git commit** e dar um título a esse commit:
+
+![FOLLOW-THROUGH-GIT4](https://user-images.githubusercontent.com/105538076/173155651-ce1571f1-5574-42ee-ac66-c6955e9aec8b.png)
+
+
+
