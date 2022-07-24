@@ -1,5 +1,5 @@
-# Meu repositório de anotações sobre Git/GitHub
-Repositório criado para o desafio de projeto do bootcamp da DIO.
+# ✨ Meu repositório de anotações sobre Git/GitHub ✨
+Repositório criado para o desafio de projeto do bootcamp da DIO. 
 
 
 ## Links Importantes:
