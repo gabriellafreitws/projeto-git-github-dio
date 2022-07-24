@@ -1,4 +1,4 @@
-# ✨ Meu repositório de anotações sobre Git/GitHub ✨
+# ✨ Meu repositório de anotações Bootcamp FullStack Santander ✨
 Repositório criado para o desafio de projeto do bootcamp da DIO. 
 
 
