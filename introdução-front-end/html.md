@@ -183,6 +183,25 @@ External: Um estilo externo é usada para definir o estilo de muitas páginas HT
         <head>
           <link rel="stylesheet" href="styles.css">
         </head>
+         
+## JavaScript dentro do HTML
+
+JavaScript makes HTML pages more dynamic and interactive.
+E assim como o CSS pode ser adicionado internamente e externamente (em outro documento).
+         
+         ###Exemplos:
+         
+         <script>
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+         </script>
+         
+ou
+         
+         <script type="text/javascript" src="scripts.js"></script>
+         
+         
+         
+         
        
 
        
