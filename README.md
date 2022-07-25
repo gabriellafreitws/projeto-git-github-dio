@@ -1,13 +1,14 @@
-# ✨ Meu repositório de anotações Bootcamp FullStack Santander ✨
-Repositório criado para o desafio de projeto do bootcamp da DIO. 
+# ✨ ANOTAÇÕES BOOTCAMP FULLSTACK DEVELOPER D.I.O ✨
+> Repositório criado coletar anotações do bootcamp da DIO. 💗
 
+Anotações disponibilizadas:
+- HTML ✅
+- CSS
+- JAVASCRIPT
+- TYPESCRIPT
+- ANGULAR
+- JAVA
 
-## Links Importantes:
-[Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
-
-[Download do Git](https://git-scm.com/downloads)
-
-[Download do GitHub](https://desktop.github.com/)
 
 
 
